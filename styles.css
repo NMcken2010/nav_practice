@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:none;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    width: 100vw;
+    background: linear-gradient( rgb(48, 226, 149), rgb(146, 15, 137)) ;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 35px;
+    width: 60%;
+    
+    
+}
+.navlistitem{
+    border: 3px solid rgba(77, 77, 238, 0.351);
+    border-radius: 15%;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 20px;
+    font-family:monospace;
+    color:blanchedalmond;
+    background-color:rgba(138, 89, 251, 0.478);
+    min-width: 60px;
+    text-align: center;
+
+}
+
+.heroContainer{
+    height: 50vh;
+    width: 100%;
+    background-image: url(./media/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 30px;
+    font-size: larger;
+}
+.heroOverlay{
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.378);
+    
+}
+.heroH1{
+    margin-top: -20px;
+    position: relative;
+}
+.heroH2{
+    margin-top: -60px;
+    position: relative;
+}
+
